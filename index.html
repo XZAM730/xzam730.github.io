@@ -3,23 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xzam | Official Profile</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <meta name="google-site-verification" content="5RwhXmVjMMqPuptynKkai9cP_EIonBJdB_JsJIJoaKY" />
+    <title>XZAM - Official Hub & Developer Profile</title>
+    <meta name="description" content="Pusat informasi resmi Xzam. Developer, Content Creator, dan Founder IEA Portal. Temukan portofolio, proyek open source, dan kontak resmi Xzam di sini.">
+    <meta name="keywords" content="Xzam, Xzam730, IEA Portal, Developer Indonesia, GitHub Xzam, Profil Xzam">
     <meta name="author" content="Xzam">
-    <meta name="description" content="Profil resmi Xzam, Developer dan Founder IEA.">
+    <link rel="canonical" href="https://xzam730.github.io/">
+
+    <meta name="google-site-verification" content="5RwhXmVjMMqPuptynKkai9cP_EIonBJdB_JsJIJoaKY" />
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="XZAM | System Hub">
+    <meta property="og:description" content="Official Landing Page of Xzam. Developer & Founder of IEA.">
+    <meta property="og:url" content="https://xzam730.github.io/">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/xzam730"> <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Xzam",
+      "url": "https://xzam730.github.io/",
+      "sameAs": [
+        "https://github.com/xzam730",
+        "https://instagram.com/Xzam", 
+        "https://twitter.com/Xzam"
+      ],
+      "jobTitle": "Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "IEA Portal"
+      },
+      "description": "Digital creator and developer focusing on astronomy systems and web technologies."
+    }
+    </script>
 
     <style>
-        body { background: #000; color: #0f0; font-family: monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
-        a { color: #fff; text-decoration: none; border: 1px solid #0f0; padding: 10px 20px; margin: 10px; transition: 0.3s; }
-        a:hover { background: #0f0; color: #000; }
+        :root {
+            --bg-color: #050505;
+            --text-color: #e0e0e0;
+            --accent-color: #00ff41; /* Warna Hijau Hacker */
+            --glass: rgba(255, 255, 255, 0.05);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Courier New', Courier, monospace; /* Font sistem */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Efek Glitch pada Nama */
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 5px;
+            color: #fff;
+            text-shadow: 0 0 10px var(--accent-color);
+            margin-bottom: 10px;
+        }
+
+        .role {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--accent-color);
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* Kartu Link */
+        .card {
+            background: var(--glass);
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #fff;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            background: var(--accent-color);
+            color: #000;
+            transform: scale(1.02);
+            box-shadow: 0 0 15px var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        .card.main-project {
+            border: 1px solid var(--accent-color);
+            background: rgba(0, 255, 65, 0.1);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        /* Animasi masuk */
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
-    <h1>XZAM SYSTEM</h1>
-    <p>Developer | Founder of IEA</p>
-    
-    <a href="https://xzam730.github.io/PORTAL-IEA/">MASUK KE PORTAL IEA</a>
-    <a href="https://github.com/xzam730">GITHUB</a>
+
+    <main class="fade-in">
+        <img src="https://github.com/xzam730.png" alt="Xzam Profile" style="width: 100px; border-radius: 50%; border: 2px solid var(--accent-color); margin-bottom: 20px;">
+
+        <h1>XZAM</h1>
+        <div class="role">System Developer & Creator</div>
+
+        <div class="container">
+            <a href="https://xzam730.github.io/PORTAL-IEA/" class="card main-project">
+                ACCESS IEA PORTAL [SYSTEM]
+            </a>
+
+            <a href="https://github.com/xzam730" class="card">
+                GITHUB REPOSITORY
+            </a>
+
+            </div>
+    </main>
+
+    <footer>
+        <p>System initialized by Xzam &copy; <span id="year"></span></p>
+        <p style="font-size: 10px; margin-top: 5px;">Secure Connection • GitHub Pages</p>
+    </footer>
+
+    <script>
+        // Update Tahun Otomatis
+        document.getElementById("year").innerText = new Date().getFullYear();
+
+        // Tanda tangan konsol (Developer signature)
+        console.log("%c [ XZAM HUB ] ", "background: #00ff41; color: #000; font-weight: bold; padding: 5px;");
+        console.log("Welcome to the main directory.");
+    </script>
+
 </body>
 </html>
