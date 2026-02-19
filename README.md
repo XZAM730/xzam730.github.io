@@ -1,4 +1,4 @@
-# ⚡ XZAM // OFFICIAL SYSTEM HUB
+# ⚡ XZAM OFFICIAL SYSTEM HUB
 
 ![System Status](https://img.shields.io/badge/System-Online-00ff41?style=for-the-badge&logo=gnometerminal&logoColor=white)
 ![Role](https://img.shields.io/badge/Role-System_Architect-00f3ff?style=for-the-badge&logo=linux&logoColor=white)
